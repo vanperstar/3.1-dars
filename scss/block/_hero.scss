@@ -1,0 +1,48 @@
+.hero{
+    &_img{
+       position: relative; 
+    }
+    &_box{
+        background-color: #FFFFFF;
+        width: 40%;
+        height: 355px;
+        transform: translateY(-360px);
+        &_title{
+            background-color: #FFFFFF;
+            // padding: 56px 55px 65px 0;
+            // width: 40%;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 50px;
+            color: #33323D;
+        }
+    }
+    &_link{
+        background: #203A4C;
+        padding: 17px 15px 17px 50px;
+        text-decoration: none;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        &::before{
+            transform: translateX(-50px) translateY(20px);
+            content: "";
+            background: url(../../img/about_before.png);
+            background-size: cover;
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+        }
+    }
+}
