@@ -387,7 +387,7 @@ footer {
 
 .header {
   margin-top: 64px;
-  margin-bottom: 64px;
+  margin-bottom: 9px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -485,5 +485,55 @@ footer {
 
 .footer_twitter_link_img {
   margin-right: 15px;
+}
+
+.hero_img {
+  position: relative;
+}
+
+.hero_box {
+  background-color: #FFFFFF;
+  width: 40%;
+  height: 355px;
+  -webkit-transform: translateY(-360px);
+          transform: translateY(-360px);
+}
+
+.hero_box_title {
+  background-color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  color: #33323D;
+}
+
+.hero_link {
+  background: #203A4C;
+  padding: 17px 15px 17px 50px;
+  text-decoration: none;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero_link::before {
+  -webkit-transform: translateX(-50px) translateY(20px);
+          transform: translateX(-50px) translateY(20px);
+  content: "";
+  background: url(../../img/about_before.png);
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
