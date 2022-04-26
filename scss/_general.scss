@@ -10,6 +10,15 @@ html{
     box-sizing: inherit;
 }
 
+.visually-hidden {
+        position:absolute;
+        left:-10000px;
+        top:auto;
+        width:1px;
+        height:1px;
+        overflow:hidden;
+}
+
 body{
     font-style: normal;
     font-size: 18px;
@@ -26,4 +35,10 @@ body{
 footer{
     background: #33323D;
     width: 100%;
+}
+
+.btn{
+    color: #33323D;
+    font-size: 12px;
+    font-family: 'PublicSans-Regular' 'sans-serif';
 }
