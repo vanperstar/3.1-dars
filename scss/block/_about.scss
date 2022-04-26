@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+}
+
+
+.about_img{
+     
+}
+
+.about-right{
+    padding-left: 125px;
+        &_tittle{
+            font-family:'IbarraRealNova-Bold', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            color: #33323D;
+        }
+        &_text{
+            font-family: 'PublicSans-Regular' 'sans-serif';
+            font-size: 18px;
+            line-height: 30px;
+            color:  #33323D;
+            opacity: 80%;
+            padding: 28px 0 24px 0;
+        }
+        &_btn{
+            padding: 17px 36px;
+        }
+        &_top{
+            margin-bottom: 50px;
+        }
+        &_bottom{
+            margin-top: 46px;
+        }
+}

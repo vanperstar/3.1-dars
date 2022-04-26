@@ -367,6 +367,15 @@ html {
           box-sizing: inherit;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 body {
   font-style: normal;
   font-size: 18px;
@@ -383,6 +392,12 @@ body {
 footer {
   background: #33323D;
   width: 100%;
+}
+
+.btn {
+  color: #33323D;
+  font-size: 12px;
+  font-family: 'PublicSans-Regular' 'sans-serif';
 }
 
 .header {
@@ -485,5 +500,43 @@ footer {
 
 .footer_twitter_link_img {
   margin-right: 15px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-right {
+  padding-left: 125px;
+}
+
+.about-right_tittle {
+  font-family: 'IbarraRealNova-Bold', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #33323D;
+}
+
+.about-right_text {
+  font-family: 'PublicSans-Regular' 'sans-serif';
+  font-size: 18px;
+  line-height: 30px;
+  color: #33323D;
+  opacity: 80%;
+  padding: 28px 0 24px 0;
+}
+
+.about-right_btn {
+  padding: 17px 36px;
+}
+
+.about-right_top {
+  margin-bottom: 50px;
+}
+
+.about-right_bottom {
+  margin-top: 46px;
 }
 /*# sourceMappingURL=main.css.map */
