@@ -2,11 +2,6 @@
     display: flex;
 }
 
-
-.about_img{
-     
-}
-
 .about-right{
     padding-left: 125px;
         &_tittle{
@@ -32,4 +27,26 @@
         &_bottom{
             margin-top: 46px;
         }
+}
+
+.about-second{
+    display: flex;
+    &_tittle{
+        
+        font-family: Ibarra Real Nova;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;        
+    }
+    &_btn{
+        margin-left: 300px;
+        height: 48px;
+        width: 162px;
+        color: #33323D;
+        font-size: 12px;
+        font-family: 'PublicSans-Regular' 'sans-serif';
+    }
+
 }
