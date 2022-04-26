@@ -1,0 +1,40 @@
+.footer{
+    align-items: center;
+    display: flex;
+    &_logo{
+        margin: 24px 0;
+        &_img{
+            display: flex;
+        }
+    }
+
+    &_nav{
+        margin-left: 48px;
+        display: flex;
+        list-style: none;
+        &_item{
+            margin: 0 22px;
+        }
+        &_link{
+            text-decoration: none;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+
+    &_twitter{
+        margin-left: 485px;
+        &_link{
+            text-decoration: none;
+            &_img{
+                margin-right: 15px;
+            }
+        }
+    }
+}

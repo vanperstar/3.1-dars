@@ -1,0 +1,33 @@
+.header{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    &_logo{
+        &_img{
+            display: flex;
+        }
+    }
+    .nav{
+        display: flex;
+        list-style: none;
+        &_item{
+            margin: 0 42px;
+        }
+        &_link{
+            text-decoration: none;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+            &:hover{
+                color: #5FB4A2;;
+            }
+        }
+    }
+}
