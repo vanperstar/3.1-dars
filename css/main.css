@@ -544,6 +544,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 180px;
+  padding-bottom: 150px;
 }
 
 .about-second_tittle {
@@ -556,7 +558,7 @@ footer {
 }
 
 .about-second_btn {
-  margin-left: 300px;
+  margin-left: 598px;
   height: 48px;
   width: 162px;
   color: #33323D;
